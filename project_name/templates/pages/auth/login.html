@@ -1,0 +1,10 @@
+{% extends 'layouts/auth.html' %}
+
+{% block title %}{{ project_name }} | Login{% endblock title %}
+
+{% block page_content %}
+  <section>
+    <!-- Login Form -->
+    {% include './_form_login.html' %}
+  </section>
+{% endblock page_content %}
