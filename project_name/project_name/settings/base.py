@@ -14,18 +14,9 @@ DJANGO_APPS = [
 ]
 
 THIRD_PARTY_APPS = [
-    'django_extensions',
-    'widget_tweaks',
-
-    # Models fields
-    'django_countries',
 ]
 
 LOCAL_APPS = [
-    'apps.accounts',
-    'apps.classes',
-    'apps.core',
-    'apps.locations',
 ]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
